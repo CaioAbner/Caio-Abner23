@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/Css/Main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">Abner<span>Lab</span></div>
+        <nav class="navigation-items">
+            <a href="">Home</a>
+            <a href="">Produtos</a>
+            <!-- <input class="botao" type="button" value="Comprar"> -->
+            <a href="">Comprar</a>
+            <!-- <a href="">Buy</a> -->
+        </nav>
+        <div class="contato">
+            <ul>
+                <li class="Discord"><img src="/assets/Img/icons8-discord-48.png" alt=""></li>
+                <li class="Insta"><img src="/assets/Img/icons8-instagram.svg" alt=""></li>
+                <li class="Zap"><img src="/assets/Img/icons8-whatsapp.svg" alt=""></li>
+                <li class="Chat"><img src="/assets/Img/icons8-chat-48.png" alt=""></li>
+            </ul>
+            </div>
+        <!-- <input class="botao" type="button" value="Comprar"> -->
+    </header>
+
+    <header class="container2">
+        <div class="degrade"></div>
+    </header>
+
+    <div class="container-shop">
+
+    <div class="itens1"></div>
+<div class="itens2"></div>
+<div class="itens3"></div>
+<div class="itens4"></div>
+</div>
+
+<div class="produtos">
+    <div class="info"><img src="/assets/Img/icons8-informações-64.png" alt=""></div>
+    <h2>Produtos</h2>
+</div>
+
+<div class="container-pc">
+
+    <div class="itens-1">
+        <div class="pc1"></div>
+        <div class="text1"><h2></h2></div>
+    </div>
+<div class="itens-2">
+    <div class="pc2"></div>
+    <div class="text2"><h2></h2></div>
+</div>
+<div class="itens-3">
+    <div class="pc3"></div>
+    <div class="text3"><h2></h2></div>
+</div>
+<div class="itens-4">
+    <div class="pc4"></div>
+    <div class="text4"><h2></h2></div>
+</div>
+</div>
+
+</body>
+</html>
