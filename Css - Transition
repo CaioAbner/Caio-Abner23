@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider {
+    width: 100%;
+    max-width: 80%;
+    height: 850px;
+    max-height: 100%;
+
+    position: relative;
+    box-shadow: 5px 0 507px 4rem black;
+    display: flex;
+}
+
+#slider img{
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
+}
