@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {  /* Aplicando (Display:grid;) ao container */
+    display: grid;
+}
+
+.wrapper {
+    border: 8px solid #000000;
+    border-radius: 5px;
+    background-color: #fff4e6;
+}
+  .wrapper > div {
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background-color: #e09028;
+    padding: 1em;   /* Distância entre o elemento e a box/div */
+    color: #000000;
+    font-weight: bold;
+}
+
+/* GRID-TRACKS (grid-template-columns e grid-template-rows) "Respectivamente COLUNAS e LINHAS" */
+
+/* Um grid track é o espaço entre duas linhas em um grid. */
+
+/* eX : 1 */
+
+/* .wrapper {
+    grid-template-columns: 80px 80px 80px 200px 200px;  /* 3 COLUNAS de 80px (Pixel é um valor fixo) | 2 Colunas de 200px */ 
+    /* Caso queira utilizar um valor que varie utilize PORCENTAGEM (%) ou (fr) /"fr" representa uma FRAÇÃO de ESPAÇO disponível no container/
+} */
+
+/* eX : 2 */
+
+/* .wrapper {
+    grid-template-columns: 1fr 1fr 1fr; /* Nesse caso eu utilizei 3 "fr's", ou seja, cada uma das colunas no caso as ("3" primeiras), ocupa uma FRAÇÃO/um FR do container
+} */
+
+/* eX : 3 */
+
+/* .wrapper {
+    grid-template-columns: 2fr 1fr 1fr; /* Nesse caso o container será dividido em  4 FRAÇÕES, "2" para a PRIMEIRA coluna e "1" para a SEGUNDA e TERCEIRA coluna
+} */
+
+/* eX : 4 */
+
