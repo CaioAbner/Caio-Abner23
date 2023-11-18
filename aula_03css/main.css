@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --back: #1c1c1c;
+    --c01: white;
+    --c02: rgb(255, 255, 255);
+    --c03: crimson;
+}
+
+body {
+    animation: back 5s ease-in-out alternate infinite;
+    width: 100%;
+    height: 100%;
+    background-size: 500% 100%;
+    background-image: linear-gradient(120deg, #eeaeca, #94bbe9);
+}
+
+.titles_1 {
+    margin-top: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--c01);
+    text-align: center;
+}
+
+h1:nth-child(1) {
+    font-size: 3rem;
+    color: var(--c02);
+}
+
+.subtitles {
+    margin-top: 1rem;
+    color: var(--c01);
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.texts {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--c03);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#image {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#image img {
+    border-radius: 0.5rem;
+    transition: 0.5s;
+}
+
+#image img:hover {
+    width: 800px; /*Poderia fazer também  usando transform scale*/
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 85px;
+    width: 300px;
+    background: var(--c02);
+}
+
+@keyframes back {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+/* Pesos nas tags :
+    p : peso 1
+    .class : peso 2
+    #id : peso 3
+*/
+
+/* Princípios de Css :
+    :link > Cor de links não visitados
+    :visited > Links visitados
+    :active > Quando eu clicar no link
+    :hover
+    p::first-line > Usado para formatar trechos específicos de texto
+    p::first-letter > Muda  a primeira letra do parágrafo
+*/
